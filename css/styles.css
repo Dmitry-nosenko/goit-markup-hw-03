@@ -149,8 +149,7 @@ ul {
   color: var(--primary-white-color);
   letter-spacing: 0.06em;
   text-align: center;
-  width: 1600px;
-  height: 600px;
+  padding-bottom: 200px;
 }
 .hero .text {
   font-weight: 900;
