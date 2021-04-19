@@ -185,7 +185,7 @@ ul {
 }
 .features .item {
   margin-right: 30px;
-  width: 270px;
+  flex-basis: calc((100% - 30px) / 4);
 }
 .features .item:last-child {
   margin-right: 0;
@@ -196,6 +196,7 @@ ul {
   font-size: 14px;
   line-height: 1.15;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .features .subtitle {
