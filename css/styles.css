@@ -318,21 +318,20 @@ footer .adress {
   padding: 6px 22px;
   border: 1px solid transparent;
 }
-.project-section {
-  padding-bottom: 0;
-}
-.project-section .item {
+
+.project-section .item-button {
   margin-right: 8px;
 }
 
-.project-section .item:last-child {
+.project-section .item-button:last-child {
   margin-right: 0;
 }
 
-.project-section .list {
+.project-section .list-button {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  list-style: none;
 }
 
 .project-section .button:hover,
@@ -353,7 +352,6 @@ footer .adress {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
-  margin-bottom: -30px;
 }
 
 .project .item {
@@ -363,6 +361,10 @@ footer .adress {
 }
 .project .item:nth-child(3n) {
   margin-right: 0;
+}
+
+.project .item:nth-child(n + 7) {
+  margin-bottom: 0;
 }
 
 .project .img {
